@@ -1,0 +1,157 @@
+/* Reset the default margin and padding of all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the body element */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style for the header section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar a {
+    margin: 0 10px;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #f00;
+  }
+  
+  #darkMode-icon {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  #darkMode-icon:hover {
+    color: #f00;
+  }
+  
+  
+  /* Style for the home section */
+  .home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+  }
+  
+  .home-content {
+    max-width: 600px;
+  }
+  
+  .home-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f00;
+    margin-bottom: 10px;
+  }
+  
+  .home-content h1 {
+    font-size: 64px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .home-content p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .social-media {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    background-color: #f00;
+  }
+  
+  .social-media i {
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f00;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+  }
+  
+  .profrssion-container {
+    position: relative;
+  }
+  
+  .profession-box {
+    position: relative;
+  }
+  
+  .profession {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    opacity
+}  
